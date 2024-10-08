@@ -1,9 +1,5 @@
 @import url('./reset.css');
 
-.hero__img-wrap--desktop {
-  display: none;
-}
-
 :root {
   /*Colors*/
   --cyan-600: hsl(192 37 48);
@@ -42,4 +38,43 @@
   --button-color: var(--purple-600);
   --button-highlight: var(--purple-300);
   --button-hover-color: var(--purple-400);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Header (logo) section */
+.header {
+  padding: 3rem 5rem 0;
+}
+
+.header__logo {
+  margin: auto;
+}
+
+/* Hero section */
+.hero {
+  padding: 4rem 2rem 2rem 2rem;
+  overflow: hidden;
+}
+
+.hero__img-wrap--desktop {
+  display: none;
+}
+
+.hero__img-wrap {
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+.hero__img {
+  position: relative;
+  left: -20%;
+  max-width: none; /*overrides img rules from reset.css. This will specify that there should be no maxiumum width limit for this element*/
+  width: 140%;
+  /* height: auto; */
+  /* object-fit: cover; */
 }
