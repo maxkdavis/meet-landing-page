@@ -34,11 +34,6 @@
 
   --button-font-size: 1rem;
   --button-font-weight: 900;
-
-  /* Defaults */
-  --button-color: var(--purple-600);
-  --button-highlight: var(--purple-300);
-  --button-hover-color: var(--purple-400);
 }
 
 body {
@@ -106,20 +101,31 @@ body {
 .hero__button-wrap {
   border: 1px solid red;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
-  /* flex-wrap: wrap; */
-  /* justify-content: center; */
 }
 
 .button {
   background-color: var(--button-color);
   border: none;
-  border-radius: 29px;
+  border-radius: 2em;
   color: var(--white);
   font-size: var(--button-font-size);
   font-weight: var(--button-font-weight);
   line-height: 150%;
   padding: 1rem 2.5rem;
   transition: background-color 0.8s ease;
+}
+
+.button--cyan {
+  background-color: var(--cyan-600);
+}
+
+.button--cyan .button__highlight {
+  color: var(--cyan-300);
+}
+
+.button--purple {
+  background-color: var(--purple-600);
 }
