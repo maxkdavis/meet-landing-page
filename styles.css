@@ -1,3 +1,4 @@
+/* importing my personal CSS rules to 'reset' the browsers default styling */
 @import url('./reset.css');
 
 :root {
@@ -41,9 +42,11 @@
 }
 
 body {
+  font-family: var(--default-page-font);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 /* Header (logo) section */
@@ -55,7 +58,7 @@ body {
   margin: auto;
 }
 
-/* Hero section */
+/* Hero header section */
 .hero {
   padding: 4rem 2rem 2rem 2rem;
   overflow: hidden;
@@ -77,4 +80,46 @@ body {
   width: 140%;
   /* height: auto; */
   /* object-fit: cover; */
+}
+
+/* Hero content section */
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 1.5rem;
+}
+
+.hero__heading {
+  color: var(--slate-900);
+  font-size: var(--h1-font-size);
+  font-weight: var(--h1-font-weight);
+  line-height: 110%;
+}
+
+.hero__text {
+  font-size: var(--text-font-size);
+  line-height: 150%;
+  color: var(--slate-600);
+}
+
+.hero__button-wrap {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+}
+
+.button {
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 29px;
+  color: var(--white);
+  font-size: var(--button-font-size);
+  font-weight: var(--button-font-weight);
+  line-height: 150%;
+  padding: 1rem 2.5rem;
+  transition: background-color 0.8s ease;
 }
