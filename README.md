@@ -33,4 +33,4 @@ I am a self-taught software developer focused on the frontend. What I enjoy most
 - Advanced React (Router)
 - Additional libraries like Tailwind.css and Material UI
 
-Please see some of my other projects at ![Frontend Mentor - My Profile](https://www.frontendmentor.io/profile/maxkdavis)
+Please see some of my other projects at [Frontend Mentor - My Profile](https://www.frontendmentor.io/profile/maxkdavis)
