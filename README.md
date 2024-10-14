@@ -1,6 +1,6 @@
 # Frontend Mentor - Meet landing page
 
-## Project Deployment - TEST
+## Project Deployment
 
 - [Netlify](https://pages.github.com/)
 
