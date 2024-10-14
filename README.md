@@ -4,6 +4,12 @@
 
 - [Netlify](https://pages.github.com/)
 
+## Screenshots
+<img width="378" alt="meeting-page-mobile" src="https://github.com/user-attachments/assets/b3f46e96-72e5-43a9-ae6e-824da3776410">
+<img width="791" alt="meeting-page-tablet" src="https://github.com/user-attachments/assets/8660367d-a871-42e7-a965-112446c41c62">
+<img width="1369" alt="meeting-page-desktop" src="https://github.com/user-attachments/assets/1f580a82-11e9-4732-b4d4-bb7981dbd1de">
+
+
 ## About this Project
 
 A frontend challenge from [Frontend Mentor](https://www.frontendmentor.io). The challenge was to build a repsonsive landing page and to match their Figma design specs. Here are a few fundamental frontend skills used for this challenge:
